@@ -1,0 +1,81 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .color-picker {
+    margin: 20px;
+  }
+  
+  .background-generator {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* GeneratedBackground.css */
+  
+  .generated-background {
+    width: 100%;
+    height: 300px; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* ColorPicker component can have its own styles */
+  
+  /* ColorPicker.css */
+  
+  .color-picker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .color-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .color-input {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .color-preview {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #333;
+    background-color: #fff;
+  }
+  
+  .color-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .color-button:hover {
+    background-color: #555;
+  }
+  
+  /* You can further customize the styles to match your design preferences. */
+  
+  

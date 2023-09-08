@@ -35,8 +35,15 @@
 # 📖 <a name="about-project"></a>
 
 **CodeAlpha_ConverterWeb**
-"A background generator is a great way to practice CSS skills and
-familiarize myself with basic JavaScript concepts. In this project, I will select a basic or a gradient colour and generate it via code. I will then create a webpage that generates random background colours and allows users to customize and copy the generated colour code."
+"Converting temperature units involves transforming a temperature measurement from one scale to another. There are several commonly used temperature scales:
+
+Celsius (°C): The Celsius scale is based on the freezing point of water at 0°C and the boiling point at 100°C under standard atmospheric pressure. It is widely used in scientific contexts and most of the world.
+
+Fahrenheit (°F): The Fahrenheit scale uses the freezing point of brine (a solution of salt and water) at 0°F and the approximate human body temperature at 98.6°F as its reference points. It is common in the United States and some other countries.
+
+Kelvin (K): The Kelvin scale is an absolute temperature scale with 0K representing absolute zero, the lowest possible temperature where molecular motion ceases. It is used in scientific and engineering applications, especially in thermodynamics.
+
+Rankine (°R): The Rankine scale is an absolute temperature scale similar to Fahrenheit but starting from absolute zero (0°R). It's primarily used in engineering."
 <a href="https://reactjs.org/">React.js</a>
 
 ## Screenshot <a name="screenshot"></a>
@@ -103,9 +110,8 @@ Probably with versions:
 Clone this repository to your desired folder:
 
 ```sh
-  cd CodeAlph_Generator
-
-  git clone https://github.com/KAYEMBAJONATHAN/CodeAlph_Generator.git
+  cd my-folder
+  git clone https://github.com/KAYEMBAJONATHAN/CodeAlpha_ConverterWeb.git
 ```
 
 ### Install
@@ -113,7 +119,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd CodeAlpha_Generator
+  cd CodeAlpha_ConverterWeb
   npm i
 ```
 
@@ -127,6 +133,7 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
 ### Run tests
 
