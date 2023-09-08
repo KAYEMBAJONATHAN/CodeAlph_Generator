@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const ColorPicker = ({ onChange }) => {
-  const [backgroundColor, setBackgroundColor] = useState('');
+  const [backgroundColor, setBackgroundColor] = useState('#fff');
 
   const handleChange = (e) => {
     const newColor = e.target.value;
